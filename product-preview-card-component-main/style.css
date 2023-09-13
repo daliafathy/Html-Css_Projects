@@ -1,0 +1,100 @@
+
+*{
+    color: black;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 0px 0px 0px 0px;
+}
+    body {
+        background-color: #dccfc6;
+    }
+    
+.container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 600px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: auto;
+    background-color:white;
+    display: grid;
+}
+.title h1 {
+    color: rgb(173, 170, 170);
+    font-size: 2em;
+    font-family: serif;
+    line-height: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.title h2 {
+    color: rgb(177, 172, 172);
+    font-size: 2.35em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+.container-img {
+    width: 300px;
+    height: 450px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius:0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-image: url("./images/image-product-desktop.jpg");
+    background-size: cover;
+}
+.container-txt {
+    margin: 40px 30px;
+    max-width: 250px;
+}
+.paragraph p {
+    margin-right: 40px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.pricing {
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    grid-template-columns: 150px 150px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.price-ok p {
+    font-size: 2.5em;
+    color: rgb(2, 86, 2);
+    font-family: serif;
+    font-weight: 800;
+}
+
+.price-n-ok p {
+    color: rgb(142, 139, 139);
+    text-decoration: line-through;
+}
+.btn {
+    width: 240px;
+    margin-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color:rgb(2, 81, 2);
+    border-radius: 8px;
+    height: 50px;
+}
+.btn img {
+    height: 16px;
+    width: 15px;
+}
+.container-btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.btn p {
+    min-width: 100px;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 500;
+}
